@@ -1,0 +1,57 @@
+body {
+    background-color: #fdf2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.valentine-container {
+    text-align: center;
+}
+
+.gif-wrapper {
+    height: 200px; /* Altezza fissa per evitare che la pagina salti */
+    margin-bottom: 20px;
+}
+
+.gif-wrapper img {
+    height: 100%;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #d63384;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#yesBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#noBtn {
+    background-color: #f44336;
+    color: white;
+    white-space: nowrap;
+}
