@@ -216,7 +216,7 @@ document.getElementById("checkPassBtn").addEventListener("click", () => {
                 <p>Se ripenso a noi due su quella panchina al parco, a morire di freddo pur di stare altri cinque minuti insieme, mi viene da sorridere. Ne è valsa la pena, ogni singolo secondo.</p>
                 <p>Volevo dirti grazie. Grazie perché sei dolce, perché mi sopporti e perché rendi tutto più bello. Promettimi che oggi:</p>
                 <button class="choice-btn" onclick="this.style.background='#2ecc71'; this.style.color='white'; this.innerText='Promesso! ❤️'">Mi darai mille baci</button>
-                <button class="choice-btn" onclick="this.style.background='#2ecc71'; this.style.color='white'; this.innerText='Mi lascerai un po\' di coperta stasera'">Mi lascerai un po' di coperta stasera</button>
+                <button class="choice-btn" onclick="this.style.background='#2ecc71'; this.style.color='white'; this.innerText='Mi lascerai un po\' di coperta'">Mi lascerai un po' di coperta stasera</button>
                 <button class="choice-btn" onclick="this.style.background='#2ecc71'; this.style.color='white'; this.innerText='Sarai la mia Valentina per sempre'">Sarai la mia Valentina per sempre</button>
                 <p style="margin-top:25px; font-weight: bold; text-align: center; color:#ff4d6d;">Ti amo da morire, piccola. ❤️</p>
             </div>
