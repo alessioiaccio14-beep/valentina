@@ -3,22 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentine's Day</title>
+    <title>Per la mia Valentina ❤️</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="valentine-container">
-        <div class="gif-wrapper">
-            <img id="bear-img" src="https://media1.tenor.com/m/ZGE99_m6U_wAAAAC/milk-and-mocha-bear-jumping.gif" alt="Milk and Mocha Bear Jumping">
+    <div id="hearts-container"></div>
+
+    <div id="main-ui" class="container">
+        <div class="gif-container">
+            <img id="bear-img" src="inizio.gif" alt="Orsetto">
         </div>
         
         <h1 id="question">Vuoi essere la mia Valentina? ❤️</h1>
         
         <div class="btn-group">
-            <button id="yesBtn" class="btn">Sì</button>
-            <button id="noBtn" class="btn">No</button>
+            <button id="yesBtn">Sì</button>
+            <button id="noBtn">No</button>
+        </div>
+
+        <button id="secret-trigger" class="hidden"></button>
+    </div>
+
+    <div id="password-section" class="container hidden">
+        <h2>Area Riservata</h2>
+        <p>Inserisci una delle nostre date speciali:</p>
+        <input type="text" id="dateInput" placeholder="gg/mm/aaaa">
+        <div class="btn-group">
+            <button id="checkPassBtn">Sblocca</button>
+            <button id="backToMain" class="secondary-btn">Indietro</button>
+        </div>
+        <p id="error-msg" class="hidden" style="color: #ff4d6d; margin-top: 10px;">Data errata, riprova amore ❤️</p>
+    </div>
+
+    <div id="content-page" class="hidden">
+        <div class="letter-content">
+            <h2 id="page-title"></h2>
+            <div id="page-body"></div>
+            <button id="closeBtn">Torna indietro ❤️</button>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
